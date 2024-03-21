@@ -1,6 +1,5 @@
 plugins {
     id 'java'
-    id "io.freefair.lombok" version "8.2.2"
 }
 group = 'ru.netology'
 version = '1.0-SNAPSHOT'
@@ -19,10 +18,7 @@ dependencies {
     testCompileOnly'org.projectlombok:lombok:1.18.30'
     testAnnotationProcessor'org.projectlombok:lombok:1.18.30'
     testRuntimeOnly'org.slf4j:slf4j-simple:2.0.7'
-    testImplementation 'io.cucumber:cucumber-java:7.1.0'
-    testImplementation 'io.cucumber:cucumber-junit:7.1.0'
-    testImplementation 'com.github.javafaker:javafaker:1.0.2'
-    testImplementation 'org.junit.vintage:junit-vintage-engine:5.8.2'
+
 
 }
 test {
